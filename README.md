@@ -42,7 +42,8 @@ Port 80      is open
 Port 443     is open
 Port 8080    is closed
 Check finished: 2 open Ports, 1 closed Ports</code></pre>
-
+<a href="https://asciinema.org/a/gCrMEvYfbXjyWUnPPrtBUe0bG">asciinema</a>
+<br />
 <code>python3 scanner.py --ip www.google.com --portF ports/web.txt</code>
 <br />
 Output:
@@ -53,7 +54,8 @@ Port 80      is open
 Port 443     is open
 Port 8080    is closed
 Check finished: 2 open Ports, 1 closed Ports</code></pre>
-
+<a href="https://asciinema.org/a/1mXFmusb7hrfGMKJ1jekLi0EE">asciinema</a>
+<br />
 <code>python3 scanner.py --ip www.google.com --portF ports/web.txt --format false</code>
 <br />
 Output:
@@ -61,3 +63,4 @@ Output:
 <pre><code>80,open
 443,open
 8080,closed</code></pre>
+<a href="https://asciinema.org/a/JTlekC8OlKWNEpxjBHZweDQvs">asciinema</a>
