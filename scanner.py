@@ -1,4 +1,4 @@
-#/bin/python3
+#!/usr/bin/python
 
 import time
 import argparse
@@ -6,6 +6,7 @@ from socket import *
 
 def connScan(tgtHost, tgtPort, format):
     connSkt = socket(AF_INET, SOCK_STREAM)
+    connSkt.settimeout(5)
     res = connSkt.connect_ex((tgtHost, tgtPort))
     connSkt.close()
 
